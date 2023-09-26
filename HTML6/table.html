@@ -20,19 +20,36 @@ div{
    border-spacing: 5px;
    border-collapse: separate;
 }
+.ah{
+   color: #003300;
+}
+.days{
+   background-color: #99FF66;
+}
+td{
+   border: solid 1px #000000;
+   padding: 3px;
+}
+tr{
+   border: solid 1px #000000;
+}
+th{
+   border: solid 1px;
+   background-color: #CCCCCC;
+}
 </style>
 </head>
 <body>
 <div >
    <table class="sched">
-	<caption>class schedule</caption>
+	<caption class="ah">My Class Schedule</caption>
    <tr>
       <th>Courses</th>
-      <td>monday</td>
-      <td>tuesday</td>
-      <td>wednesday</td>
-      <td>thursday</td>
-      <td>friday</td>
+      <td class="days">Monday</td>
+      <td class="days">Tuesday</td>
+      <td class="days">Wednesday</td>
+      <td class="days">Thursday</td>
+      <td class="days">Friday</td>
    </tr>
    <tr>
       <th>INFO 1120</th>
@@ -41,7 +58,14 @@ div{
       <td></td>
       <td>9-11</td>
       <td rowspan="2"></td>
-      
+   </tr>
+   <tr>
+      <th>MATH 1010</th>
+      <td colspan="4">12-1</td>
+   </tr>
+   <tr>
+      <th>INFO 2420</th>
+      <td colspan="5">Online Available 24/7</td>
    </tr>
    </table>
 </div>
