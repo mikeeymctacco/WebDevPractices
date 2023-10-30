@@ -29,7 +29,9 @@ h2 {
   align-items: strech;
   flex-flow: row wrap;
   justify-content: center;
-  flex:auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+
 }
 section {
   background: #F6F3ED;
@@ -37,6 +39,9 @@ section {
   padding: 20px;
   border: 1px dotted maroon;
   width: 240px;
+  display:flex;
+  flex-direction: column;
+
 }
 .title {
   background-color: #783F27;
@@ -49,8 +54,7 @@ section {
   padding: 5px;
   width: 100%;
   text-align: center;
-  display:flex;
-  flex-direction: column;
+
   margin-top: auto;
 }
 .photo{
