@@ -10,7 +10,7 @@ a:visited{color:orange}
 th{font-size: 25px;color:#adff2f}
 td{font-size: medium; color: #adff2f;}
 #container{
-    width: 1150px;
+    width: 900px;
     height: 300px;
     display: block;
     margin-left:auto;
@@ -47,9 +47,10 @@ header img{
     color: white;
 }
 section{
-    width:900px;
+    width:1100px;
     background-image: url('Images/background.jpg');
     background-repeat: repeat-y;
+    
 }
 article{
     width: 800px;
@@ -63,7 +64,7 @@ article{
 }
 
 #thumbs {
-    
+    margin-left: 250px;
     margin-top: 10px;
     height: 70px;
     display:flex;
