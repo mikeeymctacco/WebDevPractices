@@ -1,0 +1,87 @@
+.thumbnailleft{float: left; padding-right:10px} 
+.thumbnailright{float:right;padding-right:10px}
+.header{font-weight: bolder;font-size:20px; color:rgb(87, 184, 216)}  
+body{font-family:Helvetica, sans-serif;font-size:large; background-color:#2a2974; color:#d1ce2e}
+a:link{color:green}
+a:hover{color:lightgreen}
+a:visited{color:orange}
+.ag{padding-right: 100px;}
+.aa{padding: 10px;margin:auto;border: solid 2px #adff2f;width: 100%;}
+th{font-size: 25px;color:#adff2f}
+td{font-size: medium; color: #adff2f;}
+#container{
+    width: 1150px;
+    height: 300px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: antiquewhite;
+    color: black; }
+header{
+    width:1200px;
+    height: 300px;
+    color:#9291bd;
+}
+header img{
+    margin: 20px;
+}
+.navigation{
+    display:flex;
+}
+.navigation li{
+    list-style: none;
+    margin: 4px;
+    padding: 3px;
+    border: 1px solid blue;
+    background-color: white;
+    color: blue;
+    text-decoration: none;
+}
+.navigation li a{
+ text-decoration: none;
+ color:blue;
+}
+.navigation li:hover{
+    border: 1px solid white;
+    background-color: blue;
+    color: white;
+}
+section{
+    width:900px;
+    background-image: url('Images/background.jpg');
+    background-repeat: repeat-y;
+}
+article{
+    width: 800px;
+    text-align: left;
+}
+#thumbs, #image {
+    width: 900px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    color: #000;
+}
+
+#thumbs {
+    
+    margin-top: 10px;
+    height: 70px;
+    display:flex;
+    float:inline-start;
+    
+}
+
+        
+#thumbs img {
+    border: solid 1px #000;
+    margin: 5px;
+    
+}
+
+#image{
+    height:600px;
+}
+
+.instructions{
+    font-style:italic;
+}
