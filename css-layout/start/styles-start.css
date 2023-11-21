@@ -8,19 +8,46 @@ html * {
 }
 
 header {
-	width: 50%;
-	top: 100px;
-	padding: 0;
-	position: absolute;
+	width: 100%;
+	top: 0;
+	padding: 1.5em;
+	position: fixed;
 }
 
 h1 {
-	color: #000;
-	text-transform: none;
-	font-size: 2em;
-	letter-spacing: 0em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 8.5em;
+	letter-spacing: .85em;
 }
 
+.intro {
+	padding: 12em 6em;
+}
+
+.intro p {
+	font-family: 'acumin-pro-extra-condensed', sans-serif;
+	color: #343144;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2.5em;
+	line-height: 1.8;
+	letter-spacing: .325em;
+}
+
+.footer-credit {
+	float: right;
+	width: 40%;
+	text-align: right;
+	position: relative;
+}
+
+.footer-disclaimer {
+	float: left;
+	width: 60%;
+	position: relative;
+}
 
 
 
@@ -151,9 +178,6 @@ h3 {
 .intro {
   	position: relative;
 	background: #fff;
-}
-.intro p {
-	position: relative;
 }
 .artworks {
 	position: relative;
