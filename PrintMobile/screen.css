@@ -119,11 +119,6 @@
    #rightcolumn img{
 	   width: 60%
    }
-   
-
-   
-	
-   
 }
 
 /********** tablets, phones and screen sizes 540px ********************/
@@ -161,10 +156,6 @@
    #leftcolumn img, #rightcolumn img{
 	   width: 50%;
    }
-   
-	   
-
-   
 }
 
 /********** Smartphones landscape and screen sizes 480px ********************/
