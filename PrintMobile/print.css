@@ -24,8 +24,7 @@ body{
 }
 
 #navigation{
-	background-color:rgb(255, 255, 255);
-
+	background-color:#ffffff;
 }
 
 #navigation ul{
@@ -38,7 +37,6 @@ body{
 }
 
 #navigation a{
-		
 	border: 2px inset #CCCCCC;
 	background-color: #ffffff;
 	line-height: 250%;
@@ -47,19 +45,16 @@ body{
 	font-size: 17px;
 	text-decoration:none;
     width: 100%;
-
 }
 
 #navigation a:hover{
 	color: #000000;
 	border: 2px outset #CCCCCC;
-
 }
 
 #maincontent
 {
     width: 100%;
-
 }
 
 
