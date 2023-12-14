@@ -1,55 +1,9 @@
-<!DOCTYPE html >
-<html>
-<head>
-  <meta charset="utf-8" >
-   <title>Extrmeme Honeymoons: Survey</title>
-   <link href="styles.css" type="text/css" rel="stylesheet">
-</head>
 
-<body>
-
-<h1>Blackstone Bistro | Pizza-on-Demand</h1>
-
-<p>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</p>
-<form action="pizza.php" method="post" target="_blank">
-<fieldset>
-<legend>Your Information here</legend>
-<ul>
-  <li>
-    <label for="name">Name:</label>
-    <input id="name" name="name" class="text" type="text">
-  </li>
-  <li> 
-    <label for="address">Address:</label>
-    <input id="address" name="address" class="text" type="text">  
-  </li>
-  <li>   
-    <label for="phone">Telephone Number:</label>
-    <input id="phone" name="phone" class="text" type="text"> 
-  </li>
-  <li>
-    <label for="email">Email:</label>
-    <input id="email" name="email" class="text" type="text">
-  </li>
-  </li>
-  <li>
-    <label for="delivery">Delivery Instructions:</label>
-
-  </li>
-  <li>
-    <textarea id="delivery" name="delivery" class="text" type="text" maxlength="400" placeholder="No more that 400 charcters long" rows="4" cols="60"></textarea>    
-  </li>
-</ul>
-</fieldset>
-
-<h2>Design Your Dream Pizza:</h2>
+<h2>Answer these questions:</h2>
 
 
-<fieldset>
-<legend>Pizza specs</legend>
-<fieldset>
 
-<legend>Crust <span id="parens">(Choose One)</span></legend>
+
 <ul>
   <li>
     <input id="white" name="white" class="radio" type="radio">
@@ -69,8 +23,7 @@
     <label for="free">Gluten-free</label>
   </li>
 </ul>
-</fieldset>
-<fieldset>
+<hr>
 <legend>Toppings <span id="perens">(Choose as many as you want)</span></legend>
 <ul>
   <li>
@@ -102,13 +55,14 @@
     <label for="Anchovies">Anchovies</label>
   </li>
 </ul>
-</fieldset>
+<hr>
 <fieldset>
 <legend>Number</legend>
-<p>How many pizzas:<p>
+<p>How many People were on this trip:<p>
   <td>
-    <select class="drop" name="Number" tabindex="20">
-      <option selected="selected" value="1">1</option>
+    <select class="drop" name="Number" tabindex="11">
+      <option value="n" selected="selected" ></option>
+      <option value="1">1</option>
       <option value="2">2</option>
       <option value="3">3</option>
       <option value="4">4</option>
@@ -124,6 +78,3 @@
 </fieldset>
 <input name="subButton" type="submit" value="Bring me a pizza!">
 <input name="restButton" type="reset" value="reset">
-</form> 
-</body>
-</html>
