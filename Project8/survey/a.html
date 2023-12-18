@@ -1,0 +1,81 @@
+<body>
+  <form name="form1">
+  Please enter the following details: <p>
+  First Name: <br>
+  <input type="text" name="txtFirstName"> size="20" maxlength="20"> <p>
+  Surname: <br>
+  <input type="text" name="txtSurName"> size="30" maxlength="20"> <p>
+  Age: <br>
+  <input type="text" name="txtAge" size="3" maxlength="3"> <p>
+  Address Line 1: <br>
+  <input type="text" name="txtAddressline1" size="30" maxlength="30"> <p>
+  Address Line 2: <br>
+  <input type="text" name="txtAddressline2" size="30" maxlength="30"> <p>
+  City: <br>
+  <input type="text" name="txtCity" size="20" maxlength="20"> <p>
+  County: <br>
+  <input type="text" name="txtCounty" size="20" maxlength="20"> <p>
+  Post Code: <br>
+  <input type="text" name="txtPostCode" size="10" maxlength="10"> <p>
+  
+  <input type="submit" value="Check Details" name=validateForm
+      onclick="validateForm_onclick()">
+  
+  <script type ="text/javascript">
+  function validateForm_onclick()
+  {
+  var myForm = document.form1;
+  if(myForm.txtAge.value === "" || myForm.txtFirstName.value === ""|| 
+  
+  myForm.txtSurName.value === ""|| myForm.txtAddressline1.value === ""|| 
+  myForm.txtAddressline2.value === ""|| myForm.txtCity.value === ""|| 
+  
+  myForm.txtCounty.value === ""|| myForm.txtPostCode.value === "")
+  {
+  alert("Please complete all of the form");
+  if(myForm.txtFirstName.value ==="")
+  {
+  myForm.txtFirstName.focus();
+  }
+  else
+  {
+  myForm.txtSurName.focus();
+  }
+  else
+  {
+  myForm.txtFirstName.focus();
+  }
+  else
+  {
+  myForm.txtAge.focus();
+  }
+  else
+  {
+  myForm.txtAddressline1.focus();
+  }
+  else
+  {
+  myForm.txtAddressline2.focus();
+  }
+  else
+  {
+  myForm.txtCity.focus();
+  }
+  else
+  {
+  myForm.txtCounty.focus();
+  }
+  else
+  {
+  myForm.txtPostCode.focus();
+  }
+  }
+  else
+  {
+  alert("Thanks for completing the form " + myForm.txtName.value);
+  myForm.submit();
+  }
+  }
+  </script
+  </form>
+  </body>

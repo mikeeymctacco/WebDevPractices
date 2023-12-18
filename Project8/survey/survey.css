@@ -12,3 +12,10 @@ body{
 article{
     text-align: left;
 }
+body{
+    font-family:Helvetica, sans-serif;font-size:large; 
+    background-color:#2a2974; 
+    color:#d1ce2e}
+text{
+    text-decoration-color: yellow;
+}

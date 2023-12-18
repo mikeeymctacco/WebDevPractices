@@ -8,26 +8,33 @@
 
 <body>
 
+  <h1>Extreme Honeymoons: Survey</h1>
+
 <br>
-<br><br>
 <form action="FormToEmail.php" method="post" target="_blank">
 <article>
-  <legend>Did you like the bear that almost killed you?</legend>
+  <legend>On a scale of 1 to 10, how satisfied are you with your experience on our website today?</legend>
 <ul>
   <li>
-    <input id="name" name="name" class="radio" type="radio">
-    <label for="name">Yes</label>
-  </li>
-  <li> 
-    <input id="name" name="name" class="radio" type="radio"> 
-    <label for="name">No</label>
-  </li>
-  <li> 
-    <input id="name" name="name" class="radio" type="radio"> 
-    <label for="name">Freaking Loved it</label>
+    <td>
+      <select required class="drop" name="Number" tabindex="11">
+        <option value="n" selected="selected" ></option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+    </td>
   </li>
 </ul>
-<button id="next" onclick="window.location.href='survey3.html';">Next</button>
+<button id="back" onclick="window.location.href='survey.html';">Back</button>
+<button id="submit" onclick="window.location.href='survey3.html';">Next</button>
 <button type="reset">Reset</button>
 </form> 
 </body>
