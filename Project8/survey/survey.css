@@ -7,6 +7,7 @@ ol, ul, li {
 body{
     text-align: center;
     width: 500px;
+    height: 800px;
     margin: auto;
 }
 article{
@@ -19,3 +20,32 @@ body{
 text{
     text-decoration-color: yellow;
 }
+.radio{
+    background-color: rgb(255, 198, 198);
+}
+input[type=radio].radio { 
+    accent-color: #d1ce2e; 
+}
+input[type=text].text { 
+    accent-color: #d1ce2e; 
+}
+input[type=checkbox].checkbox {
+    accent-color: #d1ce2e; 
+    }
+option{
+    background-color: rgb(170, 55, 55);
+}
+select{
+    background-color: rgb(170, 55, 55);
+}
+textarea{
+    background-color: #d1ce2e;
+}
+button{
+    color: #d1ce2e;
+    background-color: #2a2974;
+}
+button:hover{
+    color:green
+}
+/*^make it so the buttons s tay in the same place every time*/
