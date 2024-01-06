@@ -77,11 +77,11 @@ article{
 }
 .thumbnailleft{
     float: left; 
-    padding-right:10px
+    padding-right:10px;
 } 
 .thumbnailright{
     float:right;
-    padding-right:10px
+    padding-right:10px;
 }
 .header{
     font-weight: bolder;
@@ -91,7 +91,7 @@ article{
 body{
     font-family:Helvetica, sans-serif;font-size:large; 
     background-color:#2a2974; 
-    color:#d1ce2e
+    color:#d1ce2e;
 }
 a:link{
     color:green
